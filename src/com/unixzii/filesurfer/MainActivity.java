@@ -2,6 +2,7 @@ package com.unixzii.filesurfer;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
@@ -20,10 +21,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main_layout);
 
         mContainter = (PageContainter) findViewById(R.id.view);
-        for (int i = 0; i < 10; i++) {
-            TextView tv = new TextView(this);
-            tv.setText("This is a TextView" + String.valueOf(i));
-            mContainter.addView(tv);
-        }
+
+        ListView listView = new ListView(this);
+        FileAdapter adapter = new FileAdapter(this);
+        adapter.setPath("/mnt/sdcard/");
+        listView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+
+        mContainter.addView(listView);
     }
 }

@@ -59,7 +59,7 @@ public class PageContainter extends ViewGroup {
         mContext = context;
         mScroller = new Scroller(mContext,new DecelerateInterpolator()); //初始化滑动动画器
         mOverScroller = new Scroller(mContext,new OvershootInterpolator(2.5f)); //初始化越界动画器
-        mTouchSlop = ViewConfiguration.get(mContext).getScaledTouchSlop(); //获取触摸灵敏值
+        mTouchSlop = ViewConfiguration.get(mContext).getScaledTouchSlop() + 10; //获取触摸灵敏值
         mCurrentPage = 0;
     }
 
@@ -109,7 +109,7 @@ public class PageContainter extends ViewGroup {
             case MotionEvent.ACTION_DOWN:
                 mLastMotionX = x;
                 mScroller.abortAnimation();
-                mState = STATE_SCROLLING;
+                mState = STATE_IDLE;
                 break;
             case MotionEvent.ACTION_MOVE:
                 float diffY = Math.abs(x - mLastMotionX);
