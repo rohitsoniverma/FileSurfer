@@ -17,11 +17,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79a03e1-2b6d-4db1-af5b-898978ddfc08" name="Default" comment="" />
+    <list default="true" id="e79a03e1-2b6d-4db1-af5b-898978ddfc08" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FileSurfer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373503669097" ignored="false" />
-    <file path="/Dummy.txt" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373504076562" ignored="false" />
+    <file path="/Dummy.txt" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373516579230" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373504365854" ignored="false" />
     <file path="/PageContainter.java" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373514273619" ignored="false" />
     <file path="/MainActivity.java" changelist="e79a03e1-2b6d-4db1-af5b-898978ddfc08" time="1373507764600" ignored="false" />
@@ -178,6 +181,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -218,7 +229,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -731,9 +742,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="v4-arm" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="GoToClass.includeLibraries" value="false" />
